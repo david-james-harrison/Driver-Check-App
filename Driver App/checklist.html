@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Driver's Vehicle Checklist</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to external JavaScript file -->
+    <script defer src="script.js"></script>
+</head>
+<body class="page-2">
+    <header class="page-2">
+        <h1>Vehicle Safety Checklist</h1>
+        <p>Please complete the following checks before starting your trip.</p>
+    </header>
+
+    <main>
+        <form action="submit_checklist.html" method="POST">
+            <!-- Oil Check -->
+            <section>
+                <h2>Oil</h2>
+                <label>
+                    <input type="checkbox" name="oilCheck" required> Oil level checked and sufficient
+                </label><br>
+                <label>
+                    <input type="checkbox" name="oilLeaks" required> No oil leaks found
+                </label>
+            </section>
+
+            <!-- Windows Check -->
+            <section>
+                <h2>Windows</h2>
+                <label>
+                    <input type="checkbox" name="windowsClean" required> Windows are clean and free of obstructions
+                </label><br>
+                <label>
+                    <input type="checkbox" name="windowsDamage" required> No cracks or damage to windows
+                </label>
+            </section>
+
+            <!-- Tires Check -->
+            <section>
+                <h2>Tires</h2>
+                <label>
+                    <input type="checkbox" name="tirePressure" required> Tire pressure is adequate
+                </label><br>
+                <label>
+                    <input type="checkbox" name="tireTread" required> Tread depth is within legal limits
+                </label><br>
+                <label>
+                    <input type="checkbox" name="noTireDamage" required> No visible tire damage
+                </label>
+            </section>
+
+            <!-- Lights Check -->
+            <section>
+                <h2>Lights</h2>
+                <label>
+                    <input type="checkbox" name="headlightsWorking" required> Headlights are functioning properly
+                </label><br>
+                <label>
+                    <input type="checkbox" name="taillightsWorking" required> Taillights are functioning properly
+                </label><br>
+                <label>
+                    <input type="checkbox" name="indicatorsWorking" required> Turn signals are functioning properly
+                </label>
+            </section>
+
+            <!-- Brakes Check -->
+            <section>
+                <h2>Brakes</h2>
+                <label>
+                    <input type="checkbox" name="brakesWorking" required> Brakes are functioning properly
+                </label><br>
+                <label>
+                    <input type="checkbox" name="brakeFluid" required> Brake fluid level is sufficient
+                </label>
+            </section>
+
+            <!-- Seatbelts Check -->
+            <section>
+                <h2>Seatbelts</h2>
+                <label>
+                    <input type="checkbox" name="seatbeltsWorking" required> All seatbelts are functioning properly
+                </label>
+            </section>
+
+            <!-- Mirrors Check -->
+            <section>
+                <h2>Mirrors</h2>
+                <label>
+                    <input type="checkbox" name="mirrorsClean" required> Mirrors are clean and properly adjusted
+                </label><br>
+                <label>
+                    <input type="checkbox" name="mirrorsNotDamaged" required> No cracks or damage to mirrors
+                </label>
+            </section>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submitChecklistBtn" class="button">Submit Checklist</button>
+        </form>
+         <!-- Return to Main Page Button -->
+         <a href="index.html" class="button return-button">Return to Main Page</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Driver's Check App</p>
+    </footer>
+
+</body>
+</html>

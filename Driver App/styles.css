@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Page 1: Driver's Check App - White/Gray and Black Theme */
+body.page-1 {
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark gray/black text */
+}
+
+header.page-1 {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    color: #666; /* Gray text */
+}
+
+/* Buttons Styling */
+a.button, button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+a.button:hover, button:hover {
+    background-color: #555; /* Lighter hover effect */
+}
+
+/* Form Input Styles */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Page 2: Checklist Page - Brighter Colors for Checkboxes */
+body.page-2 {
+    background-color: #e8f5ff; /* Light blue background */
+    color: #333;
+}
+
+header.page-2 {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Checklist Sections */
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    transform: scale(1.5); /* Make the checkboxes bigger */
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #4CAF50; /* Green when checked */
+}
+
+/* Brighter button for the checklist page */
+button {
+    background-color: #FF5722; /* Orange color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF7043; /* Lighter orange on hover */
+}
+
+/* Footer for Checklist Page */
+footer.page-2 {
+    background-color: #4CAF50; /* Same green as header */
+    color: white;
+}
