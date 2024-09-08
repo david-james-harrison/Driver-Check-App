@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Driver's Vehicle Checklist</title>
-    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Link to external JavaScript file -->
-    <script defer src="script.js"></script>
 </head>
 <body class="page-2">
     <header class="page-2">
@@ -18,96 +15,142 @@
 
     <main>
         <form action="submit_checklist.html" method="POST">
-            <!-- Oil Check -->
+           
             <section>
-                <h2>Oil</h2>
+                <h2>Fuel,Oil,Coolent Levels</h2>
                 <label>
-                    <input type="checkbox" name="oilCheck" required> Oil level checked and sufficient
+                    <input type="checkbox" name="Check" required> Tick/Cross  
                 </label><br>
-                <label>
-                    <input type="checkbox" name="oilLeaks" required> No oil leaks found
-                </label>
             </section>
 
-            <!-- Windows Check -->
             <section>
                 <h2>Windows</h2>
                 <label>
-                    <input type="checkbox" name="windowsClean" required> Windows are clean and free of obstructions
+                    <input type="checkbox" name="Check" required> Tick/Cross
                 </label><br>
-                <label>
-                    <input type="checkbox" name="windowsDamage" required> No cracks or damage to windows
-                </label>
             </section>
 
-            <!-- Tires Check -->
             <section>
                 <h2>Tires</h2>
                 <label>
-                    <input type="checkbox" name="tirePressure" required> Tire pressure is adequate
+                    <input type="checkbox" name="Check" required> Tick/Cross
                 </label><br>
-                <label>
-                    <input type="checkbox" name="tireTread" required> Tread depth is within legal limits
-                </label><br>
-                <label>
-                    <input type="checkbox" name="noTireDamage" required> No visible tire damage
-                </label>
             </section>
 
-            <!-- Lights Check -->
+            <section>
+                <h2>Body</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>   
+            </section>
+
+            <section>
+                <h2>AdBlue</h2>
+                <label>
+                    <input type="checkbox" name="Check" required>Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Battery Security</h2>
+                <label>
+                    <input type="checkbox" name="Check" required>Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Spray Suppression Devices</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Indicators/Hazard Lights</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Excessive Engine/Exhaust Smoke</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Marker Lights</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Operator Licence</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Brakes ABS/EBS</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Air Leaks</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
+            <section>
+                <h2>Horn/Warning Lights</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
             <section>
                 <h2>Lights</h2>
                 <label>
-                    <input type="checkbox" name="headlightsWorking" required> Headlights are functioning properly
+                    <input type="checkbox" name="Check" required> Tick/Cross
                 </label><br>
-                <label>
-                    <input type="checkbox" name="taillightsWorking" required> Taillights are functioning properly
-                </label><br>
-                <label>
-                    <input type="checkbox" name="indicatorsWorking" required> Turn signals are functioning properly
-                </label>
             </section>
 
-            <!-- Brakes Check -->
-            <section>
-                <h2>Brakes</h2>
-                <label>
-                    <input type="checkbox" name="brakesWorking" required> Brakes are functioning properly
-                </label><br>
-                <label>
-                    <input type="checkbox" name="brakeFluid" required> Brake fluid level is sufficient
-                </label>
-            </section>
-
-            <!-- Seatbelts Check -->
             <section>
                 <h2>Seatbelts</h2>
                 <label>
-                    <input type="checkbox" name="seatbeltsWorking" required> All seatbelts are functioning properly
+                    <input type="checkbox" name="Check" required> Tick/Cross
                 </label>
             </section>
 
-            <!-- Mirrors Check -->
             <section>
                 <h2>Mirrors</h2>
                 <label>
-                    <input type="checkbox" name="mirrorsClean" required> Mirrors are clean and properly adjusted
+                    <input type="checkbox" name="Check" required> Tick/Cross
                 </label><br>
-                <label>
-                    <input type="checkbox" name="mirrorsNotDamaged" required> No cracks or damage to mirrors
-                </label>
             </section>
 
-            <!-- Submit Button -->
+            <section>
+                <h2>Nil Defects</h2>
+                <label>
+                    <input type="checkbox" name="Check" required> Tick/Cross
+                </label><br>
+            </section>
+
             <button type="submit" id="submitChecklistBtn" class="button">Submit Checklist</button>
         </form>
-         <!-- Return to Main Page Button -->
+         
          <a href="index.html" class="button return-button">Return to Main Page</a>
     </main>
 
     <footer>
         <p>&copy; 2024 Driver's Check App</p>
     </footer>
-
+    <script src="./script.js"></script>
 </body>
 </html>
